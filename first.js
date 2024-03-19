@@ -12,7 +12,7 @@ while(true){
     }
 
     if(guess == random){
-        console.log("You are Right! Congrats!! randon number was", random)
+        console.log("You are Right! Congrats!! Random number was", random)
         break;
     } else if(guess < random){
        guess = prompt("Hint : Your guess was too small. Please try higher.")
